@@ -1,0 +1,12 @@
+/* Write your CSS code here */
+.blogs-list-container {
+  list-style: none;
+  width: 60%;
+  margin-top: 20px;
+}
+
+@media (width <= 768px) {
+  .blogs-list-container {
+    width: 98%;
+  }
+}
